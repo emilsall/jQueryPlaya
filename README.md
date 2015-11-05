@@ -10,8 +10,8 @@ Just basic methods for play and pause and some callbacks and events for load, pl
 ```js
 $('.target').playa({
 	// source
-	youtube: null, //
-	path: null,
+	path: null,		// file path/url for native player
+	youtube: null,	// youtube ID for youtube player
 
 	// settings
 	autoplay: false,
