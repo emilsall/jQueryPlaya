@@ -81,7 +81,10 @@
 				videoId: this.options.youtube,
 				playerVars: {
 					'autoplay': this.options.autoplay ? 1 : 0,
-					'controls': this.options.controls ? 1 : 0
+					'controls': this.options.controls ? 1 : 0,
+					'modestbranding': 1,
+					'rel': 0,
+					'showinfo': 0
 				},
 				events: {
 					'onReady': function () {
