@@ -4,6 +4,9 @@ Native html5 video element and Youtube api equalizer
 Just basic methods for play and pause and some callbacks and events for load, play, pause and end.
 
 Handy when you have mixed youtube and native players on one site, or maybe you want to have a native player as fallback for [certain regions](https://en.wikipedia.org/wiki/Censorship_of_YouTube) that block youtube.
+
+###[Basic demo @ jsbin.com](http://jsbin.com/bazape/edit?html,js,output)
+
 ---
 
 ## Init player from javascript:
@@ -58,6 +61,7 @@ player.play();
 ```
 
 ---
+
 ### Requirements:
 jQuery, duh.
 
