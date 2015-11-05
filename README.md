@@ -36,6 +36,16 @@ $('.target').playa({
 <div data-playa='{"youtube": "wer234WE", "autoplay": "true"}'></div>
 ```
 
+## Auto-attach event triggers to elements:
+Must be inside the container. The player is prepended before any existing content.
+```html
+<div class="native">
+	<button data-playa-event="play">Play</button>
+	<button data-playa-event="pause">Pause</button>
+</div>
+```
+
+
 ## Access an initiated player instance:
 
 ```js
