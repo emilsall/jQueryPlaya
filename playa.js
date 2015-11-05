@@ -2,7 +2,7 @@
  * Playa
  * Native html 5 video and Youtube api equalizer
  *
- * Just basic methods for play and pause and some callbacks and events for load, play, pause and end.
+ * https://github.com/emilsall/jQueryPlaya
  */
 
 ;(function ($, window, document, undefined) {
@@ -15,7 +15,7 @@
 			// settings
 			autoplay: false,
 			loop: false,
-			controls: false,
+			controls: true,
 
 			// callbacks
 			onLoad: function () {},
