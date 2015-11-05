@@ -12,6 +12,7 @@ $('.target').playa({
 	// source
 	path: null,		// file path/url for native player
 	youtube: null,	// youtube ID for youtube player
+					// (if you provide both, youtube will be ignored)
 
 	// settings
 	autoplay: false,
