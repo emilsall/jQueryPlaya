@@ -56,6 +56,14 @@ player.play();
 ```
 
 ---
+### Requirements:
+jQuery, duh.
+
+### Roadmap:
+* Add a demo page
+* Add more methods, like volume and skipping
+* Handle aspect ratio and resizing
+
 See ya!
 
 
